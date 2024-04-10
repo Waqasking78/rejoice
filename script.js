@@ -38,7 +38,7 @@ gsap.from(".page2 .elem span, .nono", {
     // markers: true,
     start: "-60%",
     end: "15%",
-    scrub: 2,
+    scrub: 3,
     ease: [0.61, 1, 0.88, 1],
   },
 });
@@ -52,7 +52,7 @@ gsap.from(".page3 .head p, .page3 .head h1", {
     // markers: true,
     start: "-80%",
     end: "none",
-    scrub: true,
+    scrub: 3,
   },
 });
 
@@ -65,7 +65,7 @@ gsap.from(".nonom, .page5 .elem span", {
     scroller: ".main",
     trigger: ".page5",
     // markers: true,
-    scrub: true,
+    scrub: 1,
     start: "-150%",
     end: "50%",
     ease: Power4,
@@ -102,14 +102,14 @@ gsap.from(".nonom2, .page7 .elem span", {
     scroller: ".main",
     trigger: ".page7",
     // markers: true,
-    scrub: true,
+    scrub: 3,
     start: "-90%",
     end: "40%",
     ease: Power4,
   },
 });
 gsap.from(".container-h1 h1 span",{
-  y: -270,
+  y: -300,
   stagger: .1,
   // ease: Expo.out,
   // color: "red",
@@ -119,7 +119,7 @@ gsap.from(".container-h1 h1 span",{
     start: "710%",
     end: "800%",
     // markers: true,
-    scrub: 3,
+    scrub: 4,
   }
 })
 
