@@ -119,7 +119,7 @@ gsap.from(".container-h1 h1 span",{
     start: "710%",
     end: "800%",
     // markers: true,
-    scrub: true,
+    scrub: 3,
   }
 })
 
